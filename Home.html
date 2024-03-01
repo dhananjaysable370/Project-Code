@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="custom_container">
+        <div class="item header flex justify-between items-center p-2 rounded">
+            <img src="./admin/img/logo-black.png" alt="Logo" class="h-10  mr-10 ml-3">
+            <ul class="flex p-4 justify-center absolute left-60">
+                <li
+                    class="mr-11 cursor-pointer tracking-wider  text-[14px] font-semibold text-gray-600 hover:text-blue-600 ease-in-out duration-200">
+                    Jobs</li>
+                <li
+                    class="mr-11 cursor-pointer tracking-wider  text-[14px] font-semibold text-gray-600 hover:text-blue-600 ease-in-out duration-200">
+                    Companies</li>
+                <li
+                    class="mr-11 cursor-pointer tracking-wider  text-[14px] font-semibold text-gray-600 hover:text-blue-600 ease-in-out duration-200">
+                    Services</li>
+            </ul>
+            <div class="ml-60">
+                <input type="search" name="search" placeholder="Search jobs here"
+                    class="bg-[#f3f4f6] h-10 px-5 pr-10 rounded-full text-sm focus:outline-none border hover:shadow transition-shadow relative left-9">
+                <button type="submit" class="bg-blue-700 p-2  rounded-full absolute posend top-4 ">
+                    <svg class="h-3 w-3 fill-current" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                        viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
+                        xml:space="preserve" width="512px" height="512px">
+                        <path
+                            d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex justify-around items-center">
+                <div class="mr-10">
+                    <label class="icon_container">
+                        <input type="checkbox" checked="checked">
+                        <svg class="bell-regular" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z">
+                            </path>
+                        </svg>
+                        <svg class="bell-solid" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z">
+                            </path>
+                        </svg></label>
+                    <!-- <a href="#"
+                        class="h-20 w-20 rounded-full mr-2 text-blue-600 border-solid cursor-pointer tracking-wider text-sm font-semibold border-blue-600 py-3 px-5 customborder">Login</a>
+                    <a href="#"
+                        class="h-20 w-5 rounded-full border-solid py-3 px-5 font-semibold text-white cursor-pointer tracking-wider  text-sm custombg ">Register</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="item sidebar shadow-lg">
+            <div>
+                <img loading="lazy" class="h-16 m-auto mt-2"
+                    src="https://static.naukimg.com/s/0/0/i/ni-gnb-revamped/userdp.svg" alt="Profile">
+                <h2 class="mt-3 mr-1 font-bold customeprofile ">Dhananjay Sable</h2>
+
+                <div class="h-48 mt-3 rounded-lg w-60 ml-5 custombackgrounddiv">
+                    <h3 class="mt-3 text-black text-sm">What are you missing?</h3>
+                    <ul class="m-6 ml-11">
+                        <li class="flex customfontstyle font-light text-black"><img
+                                src="https://static.naukimg.com/s/9/105/_next/static/assets/check-circle.svg"
+                                class="mr-2" alt="">Daily job recommendations</li>
+                        <li class="flex customfontstyle font-light text-black"><img
+                                src="https://static.naukimg.com/s/9/105/_next/static/assets/check-circle.svg"
+                                class="mr-2" alt="">Job application updates</li>
+                        <li class="flex customfontstyle font-light text-black"><img
+                                src="https://static.naukimg.com/s/9/105/_next/static/assets/check-circle.svg"
+                                class="mr-2" alt="">Direct jobs from recruiters</li>
+                    </ul>
+                    <a href="#"
+                        class="h-20 w-5 rounded-full border-solid py-2 px-5 font-semibold text-white cursor-pointer   text-sm custombg ">Complete
+                        Profile</a>
+                </div>
+
+                <div>
+                    <ul class="ml-16 mt-3">
+                        <li
+                            class="flex p-2 text-sm hover:text-blue-600 ease-in-out duration-200 font-semibold text-gray-800 cursor-pointer">
+                            <img src="https://static.naukimg.com/s/9/105/_next/static/assets/home.svg" class="mr-4"
+                                alt="">My Home
+                        </li>
+                        <li
+                            class="flex p-2 text-sm hover:text-blue-600 ease-in-out duration-200 font-semibold text-gray-800 cursor-pointer">
+                            <img src="https://static.naukimg.com/s/9/105/_next/static/assets/jobs.svg" class="mr-4"
+                                alt="">Jobs
+                        </li>
+                        <li
+                            class="flex p-2 text-sm hover:text-blue-600 ease-in-out duration-200 font-semibold text-gray-800 cursor-pointer">
+                            <img src="https://static.naukimg.com/s/9/105/_next/static/assets/company.svg" class="mr-4"
+                                alt="">Companies
+                        </li>
+                        <li
+                            class="flex p-2 text-sm hover:text-blue-600 ease-in-out duration-200 font-semibold text-gray-800 cursor-pointer">
+                            <img src="https://static.naukimg.com/s/9/105/_next/static/assets/blog.svg" class="mr-4"
+                                alt="">Blogs
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="mt-2">
+                        <a href="#" class=" text-gray-500">How career-iN Works?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item content1 shadow-lg">
+            <div class="flex justify-between">
+                <h1 class="font-semibold text-left m-5 text-lg">Recommended jobs (1)</h1>
+                <a href="#" class="m-5 text-blue-600 font-semibold">View all</a>
+            </div>
+
+            <div class="flex">
+                <div class="h-44 w-52 bg-[#ffffff] border ml-5 hover:shadow-lg rounded-lg">
+                    <div class="flex justify-between p-4">
+                        <div>
+                            <div
+                                class="h-10 w-10 bg-[#ffffff]  border-2 rounded-lg flex justify-center items-center text-violet-700">
+                                <h1 class="bootstrap_color">B</h1>
+                            </div>
+                        </div>
+                        <div class="text-gray-400 text-sm font-normal">6h ago</div>
+                    </div>
+
+                    <div class="flex flex-col relative">
+                        <h2 class="text-sm text-black font-semibold mr-4">Customer Service Agent</h2>
+                        <span class="text-left text-sm ml-4 text-gray-500">Bold Business</span>
+                        <div class="flex justify-start">
+                            <span class="material-symbols-outlined mt-6 ml-3 text-gray-500">
+                                location_on
+                            </span>
+                            <span class="text-left text-sm mt-7 ml-1 text-gray-500 ">Remote</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="h-44 w-40 bg-[#ffffff] border ml-5  rounded-lg flex items-center justify-center">
+                    <a href="#" class="font-semibold text-blue-600">View all jobs</a>
+
+                </div>
+
+            </div>
+            <div class="flex mb-4">
+                <p class="text-sm mt-4 text-left ml-5">Get the best job recommendations by telling us your career needs.
+                </p>
+                <a href="#" class="text-blue-600 text-sm mt-4 ml-2">Add now</a>
+            </div>
+        </div>
+
+        <div class="item rightsidebar shadow-lg">rightsidebar</div>
+        <!-- <div class="item footer">Footer</div> -->
+    </div>
+</body>
+
+</html>

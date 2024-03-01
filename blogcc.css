@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 95vw;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  /* background-color: rgb(22, 121, 207); */
+}
+
+.header_container {
+  margin-bottom: 2.5rem;
+  font-family: "Poppins";
+}
+
+.header_title {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.content_desc {
+  max-width: 668px;
+  text-align: center;
+  color: rgb(54, 50, 50);
+  margin: 0 auto;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  /* grid-template-rows: repeat(2,1fr); */
+  gap: 1.5rem;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.card_image_container {
+  position: relative;
+  overflow: hidden;
+  height: 14rem;
+}
+
+.card_image {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.card_title_container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.card_container:hover .card_image {
+  transform: scale(1.1);
+  transition: 200ms ease-in-out;
+}
+
+.card_title{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: rgb(40, 34, 34);
+    margin-bottom: 0.3rem;
+}
+
+.card_title:hover{
+    color: royalblue;
+}
+
+.card_desc{
+    color: rgb(63, 59, 59);
+    font-size:0.8rem;
+}
+
+.card_footer_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.author_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author_avatar_container{
+    height: 2.5rem;
+    width: 3rem;
+    overflow: hidden;
+    border: 1px solid rgb(109, 105, 105);
+    border-radius: 100%;
+    background-color: rgb(252, 248, 248);
+}
+
+.author_info_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.author_name{
+    color: blue;
+}
+.author_date{
+    color: rgb(111, 109, 109);
+}
+
+.card_tag_container{
+    font-size: 1rem;
+    border:2px solid rgb(111, 109, 109);
+    line-height: 1.3rem;
+    padding: 0.25rem;
+    border-radius: 2px;
+    color: grey;
+}
